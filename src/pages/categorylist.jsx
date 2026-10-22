@@ -14,7 +14,7 @@ export default function CategoryList() {
   // guarda lo que el usuario escribe en el menu de busqueda
   const [busqueda, setBusqueda] = useState('')
 
-  useEffect(function () {
+  useEffect(() => {
     async function cargarProductos() {
       try {
         setCargando(true)
